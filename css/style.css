@@ -1,0 +1,97 @@
+///////////////////////////////////////
+teacher_gallery.html///////////////////////////
+///////////////////////////////////////*/
+
+/*Reset the screen*/
+*{
+	/*border: solid 0px black;*/
+	margin: 0px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.gallery{
+	height: 500px;
+	width: 960px;
+	/*to make this div in the center of the page top and bottom 10% and right/left auto*/
+	margin: 10% auto;
+	border: 2px solid red;
+}
+.one{
+	border: 2px solid green;
+	height: 250px;
+}
+.two{
+	border: 2px solid green;
+	height: 250px;
+}
+#teach1,#teach2,#teach3,#teach4,#teach5,#teach6 {
+	height: 200px;
+	width: 200px;
+	border: black;
+	float: left;
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////
+Slider.html///////////////////////////
+///////////////////////////////////////*/
+#slider_wrapper{
+	width: 990px;
+	height: 400px;
+	display: relative;
+	z-index: 1;  /* to avoid confusion when multiple imgs one over the other*/
+	border-radius: 15px;
+	overflow-x: scroll;
+	margin-top: 200px;
+	left: 25%;
+}
+
+/*#slide1, #slide2, #slide3, #slide4{
+	width: 990px;
+	height: 400px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 15px;
+	overflow-x: hidden;
+}*/
+/*
+.jumpers{
+	width: 20px;
+	height: 2px;
+	text-align: center;
+	margin-top: 100px;
+	border-radius: 2px;
+	background-color: red;*/
+	/*float: left;*/
+	/*position: relative;*/
+/*}*/
+/*
+.jumpers ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	
+}*/
+/*.jumpers ul li{*/
+	/*list-style: none;*/
+/*	display: inline-block;
+	width: 17px;
+	height: 5px;
+	background-color: #000;
+	margin: 0.5px;*/
+
+	/*opacity: 0.75;*/
+
+/*}	*/
+/*.jumpers ul li.current {
+	background-color: #AE1b26;
+}
+.jumpers ul li:hover{
+
+}
