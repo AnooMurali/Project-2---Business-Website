@@ -6,8 +6,10 @@
 	<link rel="stylesheet" href="css/custom.css"/>
 	<link rel="shortcut icon" href="images/icon.png"/>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/custom.js"></script>
+	<!-- javascript link -->
+	<script type="text/javascript" src="js/engine.js"></script>
+	<!-- jquery latest api -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -69,9 +71,9 @@ Ending social and navbar ///////////////////
 //////////////////////////////////////// -->
 
 		<div id="content">
-			<img src="images/studio.jpg" id="studio">
-
-			<a href="classes.html" target="_blank">
+			<div class="imgSlide">
+					<img src="images/studio.jpg" class="img" id="slideimg" name= "slideshow"/>
+					<a href="classes.html" target="_blank">
 			<button class="btn1">LEARN MORE</button>
 			</a>			
 		</div>
@@ -79,10 +81,16 @@ Ending social and navbar ///////////////////
 		<div id="imageBar">
 			<div id="options">
 				<div><a href="index.html" class="contentOptions">ONE WEEK FREE</a></div>
-				<div><a href="index.html" class="contentOptions">MEET OUR TEACHERS</a></div>
+				<div><a href="Teacher_Gallery.html" class="contentOptions">MEET OUR TEACHERS</a></div>
 				<div><a href="index.html" class="contentOptions">FIND YOUR STUDIO</a></div>
 			</div>	
 		</div>	
+
+		<form name="form">
+			<input type = "button" id="autobtn" value = "auto" onclick="auto();">
+		</form>
+
+
 
 <!-- ///////////////////////////////////////
 Bottom bar /////////////////////////////////
